@@ -1,0 +1,41 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    color: red;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#pets {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:375px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+
+    h4 {
+    text-align: center;
+    }
+
+}
