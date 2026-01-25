@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <br>
+    <form id="form">
+        <div class="form-control">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="form-control">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+        </div>
+        <br>
+        <div class="form-control">
+            <label for="age">Age:</label>
+            <input type="text" id="age" placeholder="Enter your age">
+        </div>
+        <br />
+
+        <div class="form-control">
+            <label for="role" id="role">Which role best describe you ??</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+        <br>
+
+        <div class="form-control">
+            <label for="Language Known">Language & Frameworks Known: </label>
+            <br>
+            <label for="c">
+                <input type="checkbox" name="c" id="c">C
+            </label>
+            
+            <label for="c++">
+                <input type="checkbox" name="c++" id="c++">C++
+            </label>
+            
+            <label for="c#">
+                <input type="checkbox" name="c#" id="c#">C#
+            </label>
+         
+            <label for="java">
+                <input type="checkbox" name="java" id="java">java
+            </label>
+         
+            <label for="html">
+                <input type="checkbox" name="html" id="html">HTML
+            </label>
+         
+            <label for="css">
+                <input type="checkbox" name="css" id="css">CSS
+            </label>
+         
+            <label for="JavaScript">
+                <input type="checkbox" name="JavaScript" id="JavaScript">JavaScript
+            </label>
+          
+            <label for="Kotlin">
+                <input type="checkbox" name="Kotlin" id="Kotlin">Kotlin
+            </label>
+         
+            <label for="Django">
+                <input type="checkbox" name="Django" id="Django">Django
+            </label>
+          
+            <label for="React">
+                <input type="checkbox" name="React" id="React">React
+            </label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+        </div>
+
+        <br>
+
+        <button type="submit" value="submit" id="submit">Submit</button>
+        <button type="reset" value="reset" id="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>
