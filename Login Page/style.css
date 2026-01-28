@@ -1,0 +1,8 @@
+body {
+    background-color: antiquewhite;
+}
+
+.card {
+    max-width: 420px;
+    width: 100%;
+}
